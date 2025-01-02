@@ -33,6 +33,7 @@ jobs:
         pip install gspread
         pip install pillow  # Per importare PIL
         pip install gspread_dataframe  # Per gestire Google Sheets
+        pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
 
     - name: Execute Notebook
       run: |
