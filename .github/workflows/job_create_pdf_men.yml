@@ -2,7 +2,7 @@ name: JOB PDF MEN
 
 on:
   schedule:
-    - cron: '0 0/6 * * *'  # Esegui ogni 6 ore
+    - cron: '59 0/23 * * *'  # Esegui ogni 23 ore
   workflow_dispatch:
 
 jobs:
