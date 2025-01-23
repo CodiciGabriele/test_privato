@@ -1,7 +1,7 @@
 name: JOB INFO GENERALI
 on:
   schedule:
-    - cron: '0 0/2 * * *'  # Esegui ogni 23 ore
+    - cron: '0 0/1 * * *'  # Esegui ogni 23 ore
   workflow_dispatch:
 
 jobs:
