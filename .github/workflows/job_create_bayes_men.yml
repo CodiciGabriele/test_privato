@@ -38,7 +38,7 @@ jobs:
 
     - name: Execute Notebook
       run: |
-        jupyter nbconvert --to notebook --execute create_job_bayes.ipynb --output executed_notebook.ipynb
+        jupyter nbconvert --to notebook --execute create_job_bayes_men.ipynb --output executed_notebook.ipynb
 
     - name: Print output notebook
       run: |
