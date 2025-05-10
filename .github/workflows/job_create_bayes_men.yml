@@ -2,7 +2,7 @@ name: JOB BAYES MEN
 
 on:
   schedule:
-    - cron: '0 0/5 * * *'  # Esegui ogni 23 ore
+    - cron: '0 0/3 * * *'  # Esegui ogni 23 ore
   workflow_dispatch:
 
 jobs:
